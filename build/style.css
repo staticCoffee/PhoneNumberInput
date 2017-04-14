@@ -1,0 +1,136 @@
+body {
+    font-size: 3vmin;
+    color: #333333;
+    background: #E6EBF0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    overflow: hidden;
+}
+
+#selector {
+    color: #5E9D87;
+}
+
+#num {
+    color: #607C98
+}
+
+.phoneContainer {
+    background: #E6EBF0;
+    height: 70vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 15px 15px 15px 15px;
+    
+}
+
+.submitContainer {
+    background: #E6EBF0;
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px 0px 15px 15px;
+}
+
+.submitContainer div {
+    margin-right: 0.2vh;
+    margin-left: 0.2vh;
+}
+
+.titleContainer {
+    font-size: 4vmin;
+    text-align: center;
+}
+
+#phoneNumContainer {
+    background: #BFCCD9;
+    width: 60vw;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 15px 15px 15px 15px;
+}
+
+#responseContainer {
+    background: #BFCCD9;
+    width: 60vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 15px 15px 15px 15px;
+    margin-bottom: 2.5vh;
+    height: 100;
+}
+
+#yesNoBtns button {
+    width: 7vw;
+    height: 4vw;
+    background: #607C98;
+    font-size: 3vmin;
+    padding: 0;
+    border: none;
+    outline: none;
+    box-shadow: 1px 2px 2px 1px #728ca7;
+    border-radius: 1.5vh 1.5vh 1.5vh 1.5vh;
+}
+
+#yesNoBtns button:active {
+    background: #3b4d5e;
+    box-shadow: 0.5px 1px 3px 0px #4f667d;
+} 
+
+#yesNoBtns button:hover {
+    cursor: pointer;
+}
+
+#newBackBtns button {
+    margin-top: 1vh;
+    width: 5vw;
+    height: 3vw;
+    background: #607C98;
+    font-size: 1.7vmin;
+    padding: 0;
+    border: none;
+    outline: none;
+    box-shadow: 1px 2px 2px 1px #728ca7;
+    border-radius: 1.5vh 1.5vh 1.5vh 1.5vh;
+}
+
+#newBackBtns button:active {
+    background: #3b4d5e;
+    box-shadow: 0.5px 1px 3px 0px #4f667d;
+} 
+
+#newBackBtns button:hover {
+    cursor: pointer;
+}
+
+.submitContainer div button {
+    margin-top: 1vh;
+    width: 5vw;
+    height: 3vw;
+    background: #607C98;
+    font-size: 1.7vmin;
+    padding: 0;
+    border: none;
+    outline: none;
+    box-shadow: 1px 2px 2px 1px #728ca7;
+    border-radius: 1.5vh 1.5vh 1.5vh 1.5vh;
+}
+
+.submitContainer div button:active {
+    background: #3b4d5e;
+    box-shadow: 0.5px 1px 3px 0px #4f667d;
+} 
+
+.submitContainer div button:hover {
+    cursor: pointer;
+}
