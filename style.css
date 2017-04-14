@@ -51,7 +51,7 @@ body {
 
 #phoneNumContainer {
     background: #BFCCD9;
-    width: 60vw;
+    width: 100vh;
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -61,7 +61,7 @@ body {
 
 #responseContainer {
     background: #BFCCD9;
-    width: 60vh;
+    width: 80vh;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -70,11 +70,15 @@ body {
     height: 100;
 }
 
+#yesNoBtns {
+    margin-top: 3vh;
+}
+
 #yesNoBtns button {
-    width: 7vw;
-    height: 4vw;
+    width: 20vh;
+    height: 10vh;
     background: #607C98;
-    font-size: 3vmin;
+    font-size: 5vmin;
     padding: 0;
     border: none;
     outline: none;
@@ -93,10 +97,10 @@ body {
 
 #newBackBtns button {
     margin-top: 1vh;
-    width: 5vw;
-    height: 3vw;
+    width: 15vh;
+    height: 6vh;
     background: #607C98;
-    font-size: 1.7vmin;
+    font-size: 2.7vmin;
     padding: 0;
     border: none;
     outline: none;
@@ -115,10 +119,10 @@ body {
 
 .submitContainer div button {
     margin-top: 1vh;
-    width: 5vw;
-    height: 3vw;
+    width: 15vh;
+    height: 6vh;
     background: #607C98;
-    font-size: 1.7vmin;
+    font-size: 2.7vmin;
     padding: 0;
     border: none;
     outline: none;
